@@ -1,0 +1,18 @@
+[project]
+name = "trade01-nakagawa"
+version = "0.2.0"
+description = "Lead-lag strategies for Japanese and U.S. sectors using subspace regularization PCA (Nakagawa et al. 2026)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "requests>=2.32.5",
+    "scipy>=1.17.1",
+    "torch>=2.10.0",
+]
+
+[project.scripts]
+pca-backtest = "src.main:main"
+run-experiment = "src.pipeline.experiment:main"

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# Data & caches
+data/processed/*.pkl
+data/raw/
+data/external/*.pdf
+data/external/*.txt
+
+# Model weights
+models/
+
+# Generated outputs
+results/*.png
+results/*.csv
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# uv
+uv.lock
+
+# Legacy (pre-refactor)
+data_cache/
+checkpoints/
+*.pkl
+paper.pdf
+paper.txt
+cumulative_returns.png
